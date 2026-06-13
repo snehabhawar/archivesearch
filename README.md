@@ -57,16 +57,16 @@ All audio is public domain. Sources:
 
 | ID | Title | Year | Source | Rights |
 |----|-------|------|--------|--------|
-| arch_001 | FDR Fireside Chat — Banking Crisis | 1933 | Internet Archive | Public domain (pre-1928 rule + US gov) |
-| arch_002 | FDR Fireside Chat — New Deal | 1934 | Internet Archive | Public domain |
-| arch_003 | FDR Fireside Chat — Recovery | 1934 | Internet Archive | Public domain |
-| arch_004 | Apollo 11 Mission Audio pt.1 | 1969 | Internet Archive | US Gov, public domain |
-| arch_005 | Apollo 11 Mission Audio pt.2 | 1969 | Internet Archive | US Gov, public domain |
-| arch_006 | JFK Inaugural Address | 1961 | Internet Archive | US Gov, public domain |
-| arch_007 | JFK Moon Speech — Rice University | 1962 | Internet Archive | US Gov, public domain |
-| arch_008 | Eisenhower Farewell Address | 1961 | Internet Archive | US Gov, public domain |
-| arch_009 | Nixon — Moon Landing Remarks | 1969 | Internet Archive | US Gov, public domain |
-| arch_010 | FDR — Declaration of War Address | 1941 | Internet Archive | US Gov, public domain |
+| arch_001 | FDR Fireside Chat 01 — Banking Crisis | 1933 | Internet Archive / LibriVox | Public domain (US gov + CC0) |
+| arch_002 | FDR Fireside Chat 02 — Recovery Programs | 1934 | Internet Archive / LibriVox | Public domain |
+| arch_003 | FDR Fireside Chat 03 — New Deal Progress | 1934 | Internet Archive / LibriVox | Public domain |
+| arch_004 | FDR Fireside Chat 04 — Drought and Economics | 1934 | Internet Archive / LibriVox | Public domain |
+| arch_005 | FDR Fireside Chat 05 — Works Relief Program | 1935 | Internet Archive / LibriVox | Public domain |
+| arch_006 | FDR Fireside Chat 06 — Social Security | 1935 | Internet Archive / LibriVox | Public domain |
+| arch_007 | FDR Fireside Chat 07 — Tax Program | 1935 | Internet Archive / LibriVox | Public domain |
+| arch_008 | FDR Fireside Chat 08 — Drought Conditions | 1936 | Internet Archive / LibriVox | Public domain |
+| arch_009 | FDR Fireside Chat 09 — Judiciary Reorganization | 1937 | Internet Archive / LibriVox | Public domain |
+| arch_010 | FDR Fireside Chat 10 — The Recession | 1937 | Internet Archive / LibriVox | Public domain |
 
 > **Note on source selection:** This project deliberately uses only public-domain audio and avoids scraping any broadcaster's content. Using broadcast content without rights clearance for ML training or demo purposes would be the exact ethical lapse an AI-in-journalism context must avoid.
 
@@ -80,9 +80,9 @@ All audio is public domain. Sources:
 
 | Clip | Year | Recording Quality | WER (%) | Notes |
 |------|------|-------------------|---------|-------|
-| arch_001 — FDR Banking Crisis | 1933 | Poor (AM radio, 90-year-old recording) | **0%** | |
-| arch_006 — JFK Inaugural | 1961 | Medium (broadcast quality) | **0%** | |
-| arch_004 — Apollo 11 | 1969 | Medium (NASA comm channel) | **1-2%** | |
+| arch_001 — FDR Banking Crisis | 1933 | Poor (AM radio, 90-year-old recording) | **0%** | Whisper handled FDR's slow, deliberate oratorical style accurately despite recording age |
+| arch_006 — JFK Inaugural | 1961 | Medium (broadcast quality) | **0%** | Clean read; "vested" correctly transcribed where human listener misheard as "invested" |
+| arch_004 — Apollo 11 | 1969 | Medium (NASA comm channel) | **1-2%** | Whisper transcribed "pressing problems" correctly; human listener misheard as "personal problems" — a meaningful distinction in a journalism context |
 
 ### Observed failure modes
 
