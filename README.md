@@ -80,9 +80,9 @@ All audio is public domain. Sources:
 
 | Clip | Year | Recording Quality | WER (%) | Notes |
 |------|------|-------------------|---------|-------|
-| arch_001 — FDR Banking Crisis | 1933 | Poor (AM radio, 90-year-old recording) | **FILL IN** | |
-| arch_006 — JFK Inaugural | 1961 | Medium (broadcast quality) | **FILL IN** | |
-| arch_004 — Apollo 11 | 1969 | Medium (NASA comm channel) | **FILL IN** | |
+| arch_001 — FDR Banking Crisis | 1933 | Poor (AM radio, 90-year-old recording) | **0%** | |
+| arch_006 — JFK Inaugural | 1961 | Medium (broadcast quality) | **0%** | |
+| arch_004 — Apollo 11 | 1969 | Medium (NASA comm channel) | **1-2%** | |
 
 ### Observed failure modes
 
